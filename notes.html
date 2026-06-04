@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Notes — Moshi Fu</title>
+  <meta name="description" content="LaTeX notes by Moshi Fu." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:ital,opsz@0,6..72;1,6..72&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="assets/style.css" />
+  <!-- MathJax: lets you write LaTeX math like \( ... \) or $$ ... $$ -->
+  <script>
+    window.MathJax = {
+      tex: { inlineMath: [["$", "$"], ["\\(", "\\)"]] },
+    };
+  </script>
+  <script
+    id="MathJax-script"
+    async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+  ></script>
+</head>
+<body>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+    <span class="theme-toggle__icon">◐</span>
+  </button>
+
+  <main class="container">
+    <header class="header header--sub">
+      <a href="index.html" class="home-link">Moshi Fu</a>
+      <nav class="nav">
+        <a href="index.html">About</a>
+        <a href="notes.html" class="is-active">Notes</a>
+        <a href="publications.html">Publications</a>
+        <a href="projects.html">Projects</a>
+        <a href="problems.html">Problems</a>
+        <a href="reading.html">Reading</a>
+        <a href="blog.html">Blog</a>
+      </nav>
+    </header>
+
+    <section class="section">
+      <h2 class="section-title">Notes</h2>
+      <p>
+        LaTeX notes I've written while studying. You can write inline math like
+        $e^{i\pi} + 1 = 0$ directly on these pages, or link to compiled PDFs in
+        the <code>notes/</code> folder.
+      </p>
+
+      <ul class="entry-list">
+        <li class="entry">
+          <div class="entry-meta">Topic</div>
+          <div class="entry-body">
+            <!-- Click opens the compiled PDF directly in the browser. -->
+            <a class="entry-title" href="notes/real-analysis.pdf" target="_blank" rel="noopener">Real Analysis</a>
+            <p class="entry-desc">
+              Sample note (source: <code>notes/real-analysis.tex</code>). Replace
+              with your own — compile a <code>.tex</code> to PDF, drop it in
+              <code>notes/</code>, and link to it here.
+            </p>
+          </div>
+        </li>
+      </ul>
+
+      <p class="empty-note" style="margin-top:1.5rem">
+        Tip: write a note in LaTeX, compile it to a PDF, drop the
+        <code>.pdf</code> in the <code>notes/</code> folder, and link to it
+        above. See <code>notes/README.md</code> for the workflow.
+      </p>
+    </section>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Moshi Fu</p>
+    </footer>
+  </main>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>

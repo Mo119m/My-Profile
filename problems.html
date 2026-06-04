@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Problems — Moshi Fu</title>
+  <meta name="description" content="Fun problems and algorithms collected by Moshi Fu." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:ital,opsz@0,6..72;1,6..72&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="assets/style.css" />
+  <script>
+    window.MathJax = {
+      tex: { inlineMath: [["$", "$"], ["\\(", "\\)"]] },
+    };
+  </script>
+  <script
+    id="MathJax-script"
+    async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+  ></script>
+</head>
+<body>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+    <span class="theme-toggle__icon">◐</span>
+  </button>
+
+  <main class="container">
+    <header class="header header--sub">
+      <a href="index.html" class="home-link">Moshi Fu</a>
+      <nav class="nav">
+        <a href="index.html">About</a>
+        <a href="notes.html">Notes</a>
+        <a href="publications.html">Publications</a>
+        <a href="projects.html">Projects</a>
+        <a href="problems.html" class="is-active">Problems</a>
+        <a href="reading.html">Reading</a>
+        <a href="blog.html">Blog</a>
+      </nav>
+    </header>
+
+    <section class="section">
+      <h2 class="section-title">Problems &amp; Algorithms</h2>
+      <p>
+        A growing collection of problems and algorithms I find fun or
+        instructive. Math renders via LaTeX, e.g. $\sum_{k=1}^{n} k =
+        \frac{n(n+1)}{2}$.
+      </p>
+
+      <ul class="entry-list">
+        <li class="entry">
+          <div class="entry-meta">Algo</div>
+          <div class="entry-body">
+            <span class="entry-title">Example: Two-pointer technique</span>
+            <p class="entry-desc">
+              A short note on when the two-pointer pattern applies and why it's
+              $O(n)$. Replace this with your own problems — each can have a
+              statement, your solution, and the key idea.
+            </p>
+          </div>
+        </li>
+      </ul>
+
+      <p class="empty-note" style="margin-top:1.5rem">
+        Tip: you can write full solutions right here with LaTeX, or link to a
+        compiled PDF in the <code>notes/</code> folder.
+      </p>
+    </section>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Moshi Fu</p>
+    </footer>
+  </main>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>
