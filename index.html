@@ -19,7 +19,6 @@
   </button>
 
   <main class="container">
-    <!-- ============ HEADER ============ -->
     <header class="header">
       <h1 class="name">Moshi Fu</h1>
       <p class="tagline">
@@ -27,14 +26,16 @@
         topics I find interesting, my projects, and the occasional essay.
       </p>
       <nav class="nav">
-        <a href="#about">About</a>
-        <a href="#research">Research &amp; Projects</a>
-        <a href="#blog">Blog</a>
-        <a href="#contact">Contact</a>
+        <a href="index.html" class="is-active">About</a>
+        <a href="notes.html">Notes</a>
+        <a href="publications.html">Publications</a>
+        <a href="projects.html">Projects</a>
+        <a href="problems.html">Problems</a>
+        <a href="reading.html">Reading</a>
+        <a href="blog.html">Blog</a>
       </nav>
     </header>
 
-    <!-- ============ ABOUT ============ -->
     <section id="about" class="section">
       <h2 class="section-title">About</h2>
       <p>
@@ -45,64 +46,21 @@
         <strong>University of Chicago</strong>.
       </p>
       <p>
-        This is where I write about topics I find interesting, share my
-        projects, and post the occasional essay.
+        This site is where I keep my LaTeX notes, publications, projects, fun
+        problems and algorithms, a log of papers I've read, and the occasional
+        essay. Use the links above to explore.
       </p>
     </section>
 
-    <!-- ============ RESEARCH / PROJECTS ============ -->
-    <section id="research" class="section">
-      <h2 class="section-title">Research &amp; Projects</h2>
-      <p class="empty-note">Coming soon — projects will be added here.</p>
-      <!--
-        To add a project, use this template:
-        <ul class="entry-list">
-          <li class="entry">
-            <div class="entry-meta">2026</div>
-            <div class="entry-body">
-              <a class="entry-title" href="LINK">Project name</a>
-              <p class="entry-desc">One-sentence description.</p>
-              <div class="entry-tags"><span class="tag">Python</span></div>
-            </div>
-          </li>
-        </ul>
-      -->
-    </section>
-
-    <!-- ============ BLOG ============ -->
-    <section id="blog" class="section">
-      <h2 class="section-title">Blog</h2>
-      <ul class="entry-list">
-        <li class="entry">
-          <div class="entry-meta">Jun 2026</div>
-          <div class="entry-body">
-            <a class="entry-title" href="blog/hello-world.html"
-              >Hello, world</a
-            >
-            <p class="entry-desc">
-              My first post — why I made this site and what I plan to write
-              about.
-            </p>
-          </div>
-        </li>
-        <!-- Add more posts here. Copy blog/hello-world.html as a template. -->
-      </ul>
-    </section>
-
-    <!-- ============ CONTACT ============ -->
     <section id="contact" class="section">
       <h2 class="section-title">Contact</h2>
-      <p>
-        The best way to reach me is by email. I'm also on a few platforms
-        below.
-      </p>
+      <p>The best way to reach me is by email.</p>
       <ul class="contact-list">
         <li><a href="mailto:Fudapi@outlook.com">Email</a></li>
         <li><a href="https://github.com/mo119m" target="_blank" rel="noopener">GitHub</a></li>
       </ul>
     </section>
 
-    <!-- ============ FOOTER ============ -->
     <footer class="footer">
       <p>© <span id="year"></span> Moshi Fu. Built with plain HTML &amp; CSS.</p>
     </footer>

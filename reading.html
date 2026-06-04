@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reading — Moshi Fu</title>
+  <meta name="description" content="Papers Moshi Fu has read." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:ital,opsz@0,6..72;1,6..72&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="assets/style.css" />
+  <script>
+    window.MathJax = {
+      tex: { inlineMath: [["$", "$"], ["\\(", "\\)"]] },
+    };
+  </script>
+  <script
+    id="MathJax-script"
+    async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+  ></script>
+</head>
+<body>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+    <span class="theme-toggle__icon">◐</span>
+  </button>
+
+  <main class="container">
+    <header class="header header--sub">
+      <a href="index.html" class="home-link">Moshi Fu</a>
+      <nav class="nav">
+        <a href="index.html">About</a>
+        <a href="notes.html">Notes</a>
+        <a href="publications.html">Publications</a>
+        <a href="projects.html">Projects</a>
+        <a href="problems.html">Problems</a>
+        <a href="reading.html" class="is-active">Reading</a>
+        <a href="blog.html">Blog</a>
+      </nav>
+    </header>
+
+    <section class="section">
+      <h2 class="section-title">Reading List</h2>
+      <p>
+        Papers I've read, with a short note on the main idea or takeaway. Newest
+        first.
+      </p>
+
+      <ul class="entry-list">
+        <li class="entry">
+          <div class="entry-meta">Jun 2026</div>
+          <div class="entry-body">
+            <a class="entry-title" href="#" target="_blank" rel="noopener"
+              >Example: Attention Is All You Need</a
+            >
+            <p class="entry-desc">
+              Vaswani et al., 2017. The Transformer replaces recurrence with
+              self-attention. <strong>Takeaway:</strong> a one-line note on what
+              you learned. Replace with the papers you read.
+            </p>
+            <div class="entry-tags">
+              <span class="tag">ML</span>
+              <span class="tag">NLP</span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Moshi Fu</p>
+    </footer>
+  </main>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>

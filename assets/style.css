@@ -89,6 +89,31 @@ body {
   border-color: var(--accent);
 }
 
+.nav a.is-active {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+/* Sub-page header: name links back home, sits above the nav */
+.header--sub {
+  margin-bottom: 2.5rem;
+}
+
+.home-link {
+  font-family: var(--serif);
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: var(--fg);
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.home-link:hover {
+  color: var(--accent);
+}
+
 /* ---------- Sections ---------- */
 .section {
   margin-bottom: 3.5rem;

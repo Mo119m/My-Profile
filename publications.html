@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Publications — Moshi Fu</title>
+  <meta name="description" content="Publications by Moshi Fu." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:ital,opsz@0,6..72;1,6..72&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+    <span class="theme-toggle__icon">◐</span>
+  </button>
+
+  <main class="container">
+    <header class="header header--sub">
+      <a href="index.html" class="home-link">Moshi Fu</a>
+      <nav class="nav">
+        <a href="index.html">About</a>
+        <a href="notes.html">Notes</a>
+        <a href="publications.html" class="is-active">Publications</a>
+        <a href="projects.html">Projects</a>
+        <a href="problems.html">Problems</a>
+        <a href="reading.html">Reading</a>
+        <a href="blog.html">Blog</a>
+      </nav>
+    </header>
+
+    <section class="section">
+      <h2 class="section-title">Publications</h2>
+      <p class="empty-note">No publications yet — they'll be listed here.</p>
+      <!--
+        To add a publication, use this template:
+        <ul class="entry-list">
+          <li class="entry">
+            <div class="entry-meta">2026</div>
+            <div class="entry-body">
+              <span class="entry-title">Paper title</span>
+              <p class="entry-desc">
+                Author One, <strong>Moshi Fu</strong>, Author Three.
+                <em>Venue / Journal</em>, 2026.
+                <a href="#">[PDF]</a> <a href="#">[arXiv]</a> <a href="#">[code]</a>
+              </p>
+            </div>
+          </li>
+        </ul>
+      -->
+    </section>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Moshi Fu</p>
+    </footer>
+  </main>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>
