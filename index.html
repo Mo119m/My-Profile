@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- TODO: replace with your name and a short description -->
+  <title>Your Name</title>
+  <meta name="description" content="Personal website of Your Name." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:ital,opsz@0,6..72;1,6..72&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+    <span class="theme-toggle__icon">◐</span>
+  </button>
+
+  <main class="container">
+    <!-- ============ HEADER ============ -->
+    <header class="header">
+      <h1 class="name">Your Name</h1>
+      <p class="tagline">
+        <!-- TODO: one line about who you are -->
+        Student at the University of Wisconsin–Madison. I build things and write
+        about them.
+      </p>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#research">Research &amp; Projects</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- ============ ABOUT ============ -->
+    <section id="about" class="section">
+      <h2 class="section-title">About</h2>
+      <p>
+        <!-- TODO: write a few sentences about yourself, your interests, and
+             what you're currently working on. -->
+        Hi, I'm <strong>Your Name</strong>. I'm interested in
+        <em>topic one</em>, <em>topic two</em>, and <em>topic three</em>.
+        Right now I'm working on a few projects and learning in public.
+      </p>
+      <p>
+        When I'm not at a keyboard you can find me doing the things I love.
+        This site is where I collect my work and occasional writing.
+      </p>
+    </section>
+
+    <!-- ============ RESEARCH / PROJECTS ============ -->
+    <section id="research" class="section">
+      <h2 class="section-title">Research &amp; Projects</h2>
+      <ul class="entry-list">
+        <li class="entry">
+          <div class="entry-meta">2026</div>
+          <div class="entry-body">
+            <a class="entry-title" href="#">Project Title One</a>
+            <p class="entry-desc">
+              A one-sentence description of what this project is and why it
+              matters. Add a link to the repo, paper, or demo.
+            </p>
+            <div class="entry-tags">
+              <span class="tag">Python</span>
+              <span class="tag">ML</span>
+            </div>
+          </div>
+        </li>
+        <li class="entry">
+          <div class="entry-meta">2025</div>
+          <div class="entry-body">
+            <a class="entry-title" href="#">Project Title Two</a>
+            <p class="entry-desc">
+              Another short description. Replace these placeholders with your
+              real work — research, side projects, open-source, anything.
+            </p>
+            <div class="entry-tags">
+              <span class="tag">Web</span>
+              <span class="tag">Design</span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ============ BLOG ============ -->
+    <section id="blog" class="section">
+      <h2 class="section-title">Blog</h2>
+      <ul class="entry-list">
+        <li class="entry">
+          <div class="entry-meta">Jun 2026</div>
+          <div class="entry-body">
+            <a class="entry-title" href="blog/hello-world.html"
+              >Hello, world</a
+            >
+            <p class="entry-desc">
+              My first post — why I made this site and what I plan to write
+              about.
+            </p>
+          </div>
+        </li>
+        <!-- Add more posts here. Copy blog/hello-world.html as a template. -->
+      </ul>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contact" class="section">
+      <h2 class="section-title">Contact</h2>
+      <p>
+        The best way to reach me is by email. I'm also on a few platforms
+        below.
+      </p>
+      <ul class="contact-list">
+        <!-- TODO: replace links and handles with your own -->
+        <li><a href="mailto:mfu39@wisc.edu">Email</a></li>
+        <li><a href="https://github.com/mo119m" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="#" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="#" target="_blank" rel="noopener">Instagram</a></li>
+      </ul>
+    </section>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="footer">
+      <p>© <span id="year"></span> Your Name. Built with plain HTML &amp; CSS.</p>
+    </footer>
+  </main>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>
