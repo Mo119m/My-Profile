@@ -14,12 +14,14 @@ projects.html         # Projects
 problems.html         # Fun problems & algorithms (MathJax enabled)
 reading.html          # Log of papers read (MathJax enabled)
 blog.html             # Blog index
-blog/
-  hello-world.html    # Example post — copy it to add new ones
+blog/                 # (create this) put blog post HTML files here
 assets/
   style.css           # All styling — edit the variables at the top to retheme
   main.js             # Dark-mode toggle + current year
-notes/                # (create this) put compiled LaTeX PDFs here
+notes/
+  real-analysis.tex   # Sample LaTeX source
+  real-analysis.pdf   # Sample compiled PDF (replace with your own notes)
+  README.md           # The LaTeX -> PDF -> link workflow
 ```
 
 ## How to edit
@@ -39,14 +41,14 @@ can write math inline with `$ ... $` (e.g. `$e^{i\pi}+1=0$`) or display math
 with `$$ ... $$`.
 
 For longer notes you have two options:
-1. **Compiled PDF** — put `something.pdf` in a `notes/` folder and link to it.
-2. **Web note** — copy `blog/hello-world.html` as a template and write the math
-   directly (it already loads MathJax).
+1. **Compiled PDF** — put `something.pdf` in the `notes/` folder and link to it
+   (see `notes/README.md`). This is the main workflow.
+2. **Web note** — write the math directly on a page that loads MathJax.
 
 ## Add a blog post
 
-Copy `blog/hello-world.html`, rename it, edit the content, then add a link to
-it in `blog.html`.
+Create `blog/your-post.html` (copy the structure of any page in this repo),
+then add a link to it in `blog.html`.
 
 ## Preview locally
 

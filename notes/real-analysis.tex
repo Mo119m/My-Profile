@@ -1,0 +1,28 @@
+% Sample LaTeX note. Compile with:  pdflatex real-analysis.tex
+% Then the generated real-analysis.pdf is what visitors open from notes.html.
+\documentclass[11pt]{article}
+\usepackage{amsmath, amssymb}
+\usepackage[margin=1in]{geometry}
+
+\title{Real Analysis}
+\author{Moshi Fu}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+This is a sample note showing the workflow: write in LaTeX, compile to a PDF,
+and link to that PDF from \texttt{notes.html}. Replace this with your real
+notes.
+
+\section{An example}
+A classic identity:
+\[
+  e^{i\pi} + 1 = 0.
+\]
+And a definition: a sequence $(x_n)$ converges to $x$ if for every
+$\varepsilon > 0$ there exists $N$ such that $|x_n - x| < \varepsilon$ for all
+$n \ge N$.
+
+\end{document}
