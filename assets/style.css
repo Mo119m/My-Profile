@@ -177,6 +177,11 @@ a {
   padding: 0.1rem 0.6rem;
 }
 
+.empty-note {
+  color: var(--muted);
+  font-style: italic;
+}
+
 /* ---------- Contact ---------- */
 .contact-list {
   list-style: none;
